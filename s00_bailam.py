@@ -27,6 +27,10 @@ sumtwoint(None, None) | None
 #endregion debai
 
 #region bailam
-def sumtwoint(i1, i2):
-  return 'todo'
+
+def sumtwoint(i1,i2):
+  if i1 is None or i2 is None:
+    return None
+  else:
+    return i1 + i2  
 #endregion bailam
